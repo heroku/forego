@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/ddollar/forego/Godeps/_workspace/src/github.com/ddollar/dist"
+
+	"github.com/heroku/forego/Godeps/_workspace/src/github.com/ddollar/dist"
 )
 
 var cmdUpdate = &Command{

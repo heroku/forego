@@ -29,7 +29,6 @@ download progress,
 package update
 
 import (
-	"github.com/ddollar/forego/Godeps/_workspace/src/bitbucket.org/kardianos/osext"
 	"compress/gzip"
 	"fmt"
 	"io"
@@ -38,6 +37,8 @@ import (
 	"os"
 	"path/filepath"
 	"runtime"
+
+	"github.com/heroku/forego/Godeps/_workspace/src/bitbucket.org/kardianos/osext"
 )
 
 type MeteredReader struct {
