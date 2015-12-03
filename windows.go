@@ -3,12 +3,14 @@
 package main
 
 import (
+	"path/filepath"
 	"syscall"
 )
 
 const osHaveSigTerm = false
 
 func ShellInvocationCommand(interactive bool, root, command string) []string {
+	command = filepath.FromSlash(command) // In case we have unix style seperators
 	return []string{"cmd", "/C", command}
 }
 
