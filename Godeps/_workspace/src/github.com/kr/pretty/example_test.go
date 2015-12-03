@@ -2,7 +2,8 @@ package pretty_test
 
 import (
 	"fmt"
-	"github.com/ddollar/forego/Godeps/_workspace/src/github.com/kr/pretty"
+
+	"github.com/heroku/forego/Godeps/_workspace/src/github.com/kr/pretty"
 )
 
 func Example() {

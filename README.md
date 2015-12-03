@@ -1,7 +1,7 @@
 ## forego
 
-<a href="https://travis-ci.org/ddollar/forego">
-  <img align="right" src="https://travis-ci.org/ddollar/forego.svg?branch=master">
+<a href="https://travis-ci.org/heroku/forego">
+  <img align="right" src="https://travis-ci.org/heroku/forego.svg?branch=master">
 </a>
 
 Foreman in Go.
@@ -12,15 +12,9 @@ Foreman in Go.
 
     brew install forego
 
-##### Precompiled Binaries
-
-* [Linux](https://godist.herokuapp.com/projects/ddollar/forego/releases/current/linux-amd64/forego)
-* [OSX](https://godist.herokuapp.com/projects/ddollar/forego/releases/current/darwin-amd64/forego)
-* [Windows](https://godist.herokuapp.com/projects/ddollar/forego/releases/current/windows-amd64/forego.exe)
-
 ##### Compile from Source
 
-    $ go get -u github.com/ddollar/forego
+    $ go get -u github.com/heroku/forego
 
 ### Usage
 

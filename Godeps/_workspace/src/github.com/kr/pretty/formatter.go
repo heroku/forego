@@ -2,11 +2,12 @@ package pretty
 
 import (
 	"fmt"
-	"github.com/ddollar/forego/Godeps/_workspace/src/github.com/kr/text"
 	"io"
 	"reflect"
 	"strconv"
 	"text/tabwriter"
+
+	"github.com/heroku/forego/Godeps/_workspace/src/github.com/kr/text"
 )
 
 const (
